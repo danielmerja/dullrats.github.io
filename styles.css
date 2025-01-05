@@ -1,0 +1,45 @@
+/* Wikipedia-specific styles */
+.wiki-content h2 {
+    margin-top: 2rem;
+    padding-bottom: 0.25rem;
+}
+
+.wiki-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.wiki-content a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.wiki-content a:hover {
+    text-decoration: underline;
+}
+
+/* Table of contents specific styles */
+.contents-box {
+    display: table;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+}
+
+.contents-box ol {
+    margin-left: 1.5rem;
+}
+
+/* Reference links */
+.reference {
+    font-size: 0.75rem;
+    vertical-align: super;
+    line-height: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .wiki-content {
+        margin-left: 0;
+    }
+} 
